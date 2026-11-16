@@ -1,7 +1,5 @@
 🎮 Tic-Tac-Toe Deluxe
 
-![Tic-Tac-Toe Deluxe Preview](TIC-TAC-TOE DELUXE/game-preview.png)
-
 A modern, arcade-inspired take on the classic Tic-Tac-Toe game, built with HTML, CSS, and JavaScript.
 
 ✨ About the Project
