@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+      <title> T×T×T Deluxe</title>
+        <link rel="stylesheet" href="T×T×T Deluxe.css">
+  </head>
+
+  <body>
+    <main class="game-container">
+      <h1>Tic-Tac-Toe <span>Deluxe</span></h1>
+      <p class="subtitle"> The ultimat X and O scourge</p>
+
+      <div id="status">X's turn</div>
+
+      <canvas 
+        id="boardCanvas" 
+        width="300" 
+        height="300"
+        aria-label="Tic-Tac-Toe game board"
+        role="img">
+     </canvas>
+
+      <section class="scoreboard">
+
+        <div class="score-card">
+          <span classs="player-x">PLAYER X</span>
+          <strong id="scoreX">0</strong>
+        </div>
+
+        <div class="score-card">
+          <span class="player-o">PLAYER O</span>
+          <strong id="scoreO">0</strong>
+        </div>
+
+        <div class="score-card">
+          <span class="draws">Draws</span>
+          <strong id="scoreDraw">0</strong>
+        </div>
+        
+      </section>
+
+      
+  <div class="controls">
+    <button id="newGame" class="newGame"> New Game</button>
+      <button id="resetScores" class="resetScores">Reset Scores</button>
+  </div>
+
+      <p class="footer">May the best player win!</p>
+
+    </main>
+    
+    <script src="T×T×T Deluxe.js"></script>
+    
+  </body>
+</html>
